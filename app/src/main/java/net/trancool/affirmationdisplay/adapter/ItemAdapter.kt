@@ -22,7 +22,7 @@ class ItemAdapter(
       val imageView : ImageView = view.findViewById(R.id.item_image)
 
    }
-   
+
 
    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
      val adapterLayout = LayoutInflater.from(parent.context)

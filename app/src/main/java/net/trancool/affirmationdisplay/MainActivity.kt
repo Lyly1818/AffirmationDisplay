@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         val dataSet = DataSource().loadAffirmations()
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
-        recyclerView.layoutManager = GridLayoutManager(this, 2)
+//        recyclerView.layoutManager = GridLayoutManager(this, 2)
 
         recyclerView.adapter = ItemAdapter(this, dataSet)
 
