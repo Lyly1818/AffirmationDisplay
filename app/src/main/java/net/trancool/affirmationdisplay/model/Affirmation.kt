@@ -1,0 +1,12 @@
+package net.trancool.affirmationdisplay.model
+
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
+//
+data class Affirmation(
+    @StringRes val stringResourceID: Int,
+   @DrawableRes val imageResourceId: Int
+    ) {
+
+}
